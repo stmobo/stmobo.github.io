@@ -18,6 +18,7 @@
     border-bottom-color: lightgrey;
 
     overflow:hidden;
+    position: relative;
 }
 
 .navbar {
@@ -31,6 +32,13 @@
     font-weight: normal;
 }
 
+.section-align {
+    margin: auto 0px auto;
+
+    position: absolute;
+    top: 30px;
+}
+
 .section-hidden-text {
     display: none;
     margin: auto 5% auto;
@@ -39,6 +47,7 @@
 .section-subheader {
     width: auto;
     font-size: 20px;
+    margin-top: 0px;
 }
 
 .section-expand-hint {
@@ -79,7 +88,7 @@
     margin: auto 0% auto;
 }
 
-#section-whatis > .section-subheader {
+#section-whatis  > .section-align > .section-subheader {
     color: hsl(0, 0%, 55%);
 }
 
@@ -89,7 +98,6 @@
 #section-tech {
     background-color: hsl(0, 0%, 75%);
     color: hsl(0, 0%, 10%);
-    position: relative;
 }
 
 #section-tech > .img-group > img {
@@ -112,9 +120,6 @@
 #section-tech > .section-align {
     margin: auto 0px auto;
     max-width: 30%;
-
-    position: absolute;
-    top: 30px;
 
     float:right;
 }
@@ -157,9 +162,17 @@
     color: hsl(0, 0%, 0%);
 }
 
+#section-uses > .section-align > .section-subheader {
+    color: hsl(0, 0%, 75%);
+}
+
 #section-uses > .section-align {
-    margin: auto;
-    margin-left: 25%;
+    position: static;
+}
+
+#section-uses > .section-hidden-text {
+    position: relative;
+    left: -5%;
 }
 
 /* "The Concerns" */
@@ -170,8 +183,11 @@
 }
 
 #section-concerns > .section-align {
-    margin: auto;
-    margin-right: -5%;
+    right: 5%;
+}
+
+#section-concerns > .section-align > .section-subheader {
+    color: hsl(0, 0%, 60%);
 }
 
 /* "The Future" */
@@ -182,6 +198,9 @@
 }
 
 #section-future > .section-align {
-    margin: auto;
-    text-align: center;
+    margin: 0 auto;
+}
+
+#section-future > .section-align > .section-subheader {
+    color: hsl(0, 0%, 60%);
 }
