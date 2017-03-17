@@ -14,6 +14,14 @@ $(document).ready( function() {
 
     $(".expandable-section").append(expandHint);
 
+    $(".info-section").mouseenter(function(ev) {
+        $(this).children('.section-expand-hint').css('text-decoration', 'underline');
+    });
+
+    $(".info-section").mouseleave(function(ev) {
+        $(this).children('.section-expand-hint').css('text-decoration', 'none');
+    });
+
     $(".info-section").click(function(ev) {
         if($(this).data("toggle")) {
             $(this).data("toggle", false);
