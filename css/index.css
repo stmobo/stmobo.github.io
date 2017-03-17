@@ -3,19 +3,23 @@ h1, h2 {
 }
 
 .info-section {
-    margin: 0px;
     padding: 5px;
+
+    margin-left: 0px;
+    margin-right: 0px;
 
     border-left-style: none;
     border-right-style: none;
 
-    border-top-width: medium;
-    border-top-style: double;
-    border-top-color: grey;
+    margin-top: 0px;
+    border-top-width: 1px;
+    border-top-style: none;
+    border-top-color: lightgrey;
 
-    border-bottom-width: medium;
-    border-bottom-style: double;
-    border-bottom-color: grey;
+    margin-bottom: 0px;
+    border-bottom-width: 1px;
+    border-bottom-style: groove;
+    border-bottom-color: lightgrey;
 }
 
 .section-subtitle {
@@ -38,34 +42,57 @@ h1, h2 {
     font-family: Impact, Haettenschweiler, "Franklin Gothic Bold", Charcoal, "Helvetica Inserat", "Bitstream Vera Sans Bold", "Arial Black", "sans serif";
 }
 
+
+
+#section-whatis {
+    background-color: hsl(0, 0%, 95%);
+}
+
+#section-whatis > .section-subtitle {
+    font-family: Verdana, Geneva, sans-serif;
+    color: hsl(0, 0%, 5%);
+}
+
+
+
 #section-tech {
-    background-color: #ff0000
+    background-color: hsl(0, 0%, 75%);
 }
 
 #section-tech > .section-subtitle {
     font-family: "Courier New", Courier, "Lucida Sans Typewriter", "Lucida Typewriter", monospace;
+    color: hsl(0, 0%, 10%);
 }
 
+
+
 #section-uses {
-    background-color: #00cc00
+    background-color:  hsl(0, 0%, 100%);
 }
 
 #section-uses > .section-subtitle {
     font-family: Copperplate, "Copperplate Gothic Light", fantasy;
+    color: hsl(0, 0%, 0%);
 }
 
+
+
 #section-concerns {
-    background-color: #ff9900
+    background-color:  hsl(0, 0%, 40%);
 }
 
 #section-concerns > .section-subtitle {
     font-family: "Franklin Gothic Medium", "Franklin Gothic", "ITC Franklin Gothic", Arial, sans-serif;
+    color: hsl(0, 0%, 100%);
 }
 
+
+
 #section-future {
-    background-color: #33ccff
+    background-color:  hsl(0, 0%, 85%);
 }
 
 #section-future > .section-subtitle {
     font-family: Futura, "Trebuchet MS", Arial, sans-serif;
+    color: hsl(0, 0%, 15%);
 }
