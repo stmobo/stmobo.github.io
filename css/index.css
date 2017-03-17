@@ -1,0 +1,71 @@
+h1, h2 {
+    color: white;
+}
+
+.info-section {
+    margin: 0px;
+    padding: 5px;
+
+    border-left-style: none;
+    border-right-style: none;
+
+    border-top-width: medium;
+    border-top-style: double;
+    border-top-color: grey;
+
+    border-bottom-width: medium;
+    border-bottom-style: double;
+    border-bottom-color: grey;
+}
+
+.section-subtitle {
+    margin: auto 50px auto;
+    max-width: 600px;
+}
+
+.navbar {
+    margin: 0 auto;
+}
+
+/* Per-section settings: */
+
+#main-header {
+    background-color: #003cb3;
+    margin-top: 0px;
+}
+
+#main-header > h1, #main-header > h2 {
+    font-family: Impact, Haettenschweiler, "Franklin Gothic Bold", Charcoal, "Helvetica Inserat", "Bitstream Vera Sans Bold", "Arial Black", "sans serif";
+}
+
+#section-tech {
+    background-color: #ff0000
+}
+
+#section-tech > .section-subtitle {
+    font-family: "Courier New", Courier, "Lucida Sans Typewriter", "Lucida Typewriter", monospace;
+}
+
+#section-uses {
+    background-color: #00cc00
+}
+
+#section-uses > .section-subtitle {
+    font-family: Copperplate, "Copperplate Gothic Light", fantasy;
+}
+
+#section-concerns {
+    background-color: #ff9900
+}
+
+#section-concerns > .section-subtitle {
+    font-family: "Franklin Gothic Medium", "Franklin Gothic", "ITC Franklin Gothic", Arial, sans-serif;
+}
+
+#section-future {
+    background-color: #33ccff
+}
+
+#section-future > .section-subtitle {
+    font-family: Futura, "Trebuchet MS", Arial, sans-serif;
+}
