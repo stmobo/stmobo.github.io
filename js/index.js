@@ -11,6 +11,10 @@ function retractInfo(elem) {
 }
 
 $(document).ready( function() {
+    /* Create "Expand..." hint: */
+    expandHint = $("<em>", {
+        
+    })
     $(".info-section").click(function(ev) {
         if($(this).data("toggle")) {
             $(this).data("toggle", false);

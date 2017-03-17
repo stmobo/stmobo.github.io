@@ -33,11 +33,6 @@
 
 .info-section > .section-hidden-text {
     display: none;
-
-    max-width: 600px;
-    font-family: "Segoe UI", Frutiger, "Frutiger Linotype", "Dejavu Sans", "Helvetica Neue", Arial, sans-serif;
-    color: inherit;
-    font-weight: normal;
     margin: auto 15% auto;
 }
 
@@ -55,7 +50,7 @@
     color: white;
 }
 
-#main-header > .section-text {
+#main-header > .section-description {
     margin: auto 15% auto;
 }
 
@@ -66,7 +61,7 @@
     color: hsl(0, 0%, 5%);
 }
 
-#section-whatis > .section-text {
+#section-whatis > .section-description {
     margin: auto 15% auto;
 }
 
@@ -77,7 +72,7 @@
     color: hsl(0, 0%, 10%);
 }
 
-#section-tech > .section-text {
+#section-tech > .section-description {
     margin: auto;
     margin-right: -15%;
 }
@@ -89,7 +84,7 @@
     color: hsl(0, 0%, 0%);
 }
 
-#section-uses > .section-text {
+#section-uses > .section-description {
     margin: auto;
     margin-left: 25%;
 }
@@ -101,7 +96,7 @@
     color: hsl(0, 0%, 100%);
 }
 
-#section-concerns > .section-text {
+#section-concerns > .section-description {
     margin: auto;
     margin-right: -5%;
 }
@@ -113,7 +108,7 @@
     color: hsl(0, 0%, 15%);
 }
 
-#section-future > .section-text {
+#section-future > .section-description {
     margin: auto;
     text-align: center;
 }
