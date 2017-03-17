@@ -55,6 +55,7 @@
     display: block;
     text-align: center;
     opacity: 0.15;
+    overflow: hidden;
 }
 
 .img-group > img {
@@ -182,10 +183,6 @@
 #section-concerns {
     background-color:  hsl(0, 0%, 40%);
     color: hsl(0, 0%, 100%);
-}
-
-#section-concerns > .section-expand-hint {
-    overflow: hidden;
 }
 
 #section-concerns > .img-group {
