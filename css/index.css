@@ -31,6 +31,22 @@
     font-weight: normal;
 }
 
+.info-section > .section-hidden-text {
+    display: none;
+
+    max-width: 600px;
+    font-family: "Segoe UI", Frutiger, "Frutiger Linotype", "Dejavu Sans", "Helvetica Neue", Arial, sans-serif;
+    color: inherit;
+    font-weight: normal;
+    margin: auto 15% auto;
+}
+
+.expand-button {
+    max-width: 100px;
+    max-height: 50px;
+    font-family: "Segoe UI", Frutiger, "Frutiger Linotype", "Dejavu Sans", "Helvetica Neue", Arial, sans-serif;
+}
+
 /* Per-section settings: */
 
 #main-header {
