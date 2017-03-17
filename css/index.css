@@ -1,9 +1,5 @@
-h1, h2 {
-    color: white;
-}
-
 .info-section {
-    padding: 5px;
+    padding: 50px;
 
     margin-left: 0px;
     margin-right: 0px;
@@ -22,13 +18,16 @@ h1, h2 {
     border-bottom-color: lightgrey;
 }
 
-.section-subtitle {
-    margin: auto 50px auto;
-    max-width: 600px;
-}
-
 .navbar {
     margin: 0 auto;
+}
+
+.info-section > p, .section-subtitle {
+    margin: auto 15% auto;
+    max-width: 600px;
+    font-family: "Segoe UI", Frutiger, "Frutiger Linotype", "Dejavu Sans", "Helvetica Neue", Arial, sans-serif;
+    color: inherit;
+    font-weight: normal;
 }
 
 /* Per-section settings: */
@@ -36,63 +35,30 @@ h1, h2 {
 #main-header {
     background-color: #003cb3;
     margin-top: 0px;
+    color: white;
 }
-
-#main-header > h1, #main-header > h2 {
-    font-family: Impact, Haettenschweiler, "Franklin Gothic Bold", Charcoal, "Helvetica Inserat", "Bitstream Vera Sans Bold", "Arial Black", "sans serif";
-}
-
-
 
 #section-whatis {
     background-color: hsl(0, 0%, 95%);
-}
-
-#section-whatis > .section-subtitle {
-    font-family: Verdana, Geneva, sans-serif;
     color: hsl(0, 0%, 5%);
 }
 
-
-
 #section-tech {
     background-color: hsl(0, 0%, 75%);
-}
-
-#section-tech > .section-subtitle {
-    font-family: "Courier New", Courier, "Lucida Sans Typewriter", "Lucida Typewriter", monospace;
     color: hsl(0, 0%, 10%);
 }
 
-
-
 #section-uses {
     background-color:  hsl(0, 0%, 100%);
-}
-
-#section-uses > .section-subtitle {
-    font-family: Copperplate, "Copperplate Gothic Light", fantasy;
     color: hsl(0, 0%, 0%);
 }
 
-
-
 #section-concerns {
     background-color:  hsl(0, 0%, 40%);
-}
-
-#section-concerns > .section-subtitle {
-    font-family: "Franklin Gothic Medium", "Franklin Gothic", "ITC Franklin Gothic", Arial, sans-serif;
     color: hsl(0, 0%, 100%);
 }
 
-
-
 #section-future {
     background-color:  hsl(0, 0%, 85%);
-}
-
-#section-future > .section-subtitle {
-    font-family: Futura, "Trebuchet MS", Arial, sans-serif;
     color: hsl(0, 0%, 15%);
 }
