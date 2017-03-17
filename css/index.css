@@ -57,6 +57,11 @@
     opacity: 0.15;
 }
 
+.img-group > img {
+    width: 175px;
+    height: 175px;
+}
+
 .img-right {
     float: right;
 }
@@ -100,16 +105,13 @@
     color: hsl(0, 0%, 10%);
 }
 
-#section-tech > .img-group > img {
-    width: 175px;
-    height: 175px;
-}
-
 #opencv-logo {
     background-color: hsl(0, 0%, 70%);
 }
 
-#section-tech > .section-hidden-text {}
+#section-tech > .section-hidden-text {
+    margin-left: 0px;
+}
 
 #section-tech > .section-align > .section-subheader {
     color: hsl(0, 0%, 40%);
@@ -182,25 +184,46 @@
     color: hsl(0, 0%, 100%);
 }
 
-#section-concerns > .section-align {
-    right: 5%;
+#section-concerns > .section-expand-hint {
+    overflow: hidden;
+}
+
+#section-concerns > .img-group {
+    position: relative;
+    left: 5%;
+}
+
+#section-concerns > .section-align, #section-concerns > .section-hidden-text {
+    margin: auto 0px auto;
+
+    position: relative;
+    top: -5%;
+    left: 10%;
+
+    max-width: 30%;
+
+    overflow: hidden;
 }
 
 #section-concerns > .section-align > .section-subheader {
     color: hsl(0, 0%, 60%);
 }
 
+
 /* "The Future" */
 
 #section-future {
     background-color:  hsl(0, 0%, 85%);
     color: hsl(0, 0%, 15%);
-}
-
-#section-future > .section-align {
-    margin: 0 auto;
+    text-align: center;
 }
 
 #section-future > .section-align > .section-subheader {
     color: hsl(0, 0%, 60%);
+}
+
+#section-future > .section-align, #section-future > .section-hidden-text {
+    margin: 0px auto;
+    width: 50%;
+    position: static;
 }
