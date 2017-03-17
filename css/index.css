@@ -16,14 +16,15 @@
     border-bottom-width: 1px;
     border-bottom-style: groove;
     border-bottom-color: lightgrey;
+
+    overflow:hidden;
 }
 
 .navbar {
     margin: 0 auto;
 }
 
-.info-section > p, .section-subtitle {
-    margin: auto 15% auto;
+.info-section > .section-text {
     max-width: 600px;
     font-family: "Segoe UI", Frutiger, "Frutiger Linotype", "Dejavu Sans", "Helvetica Neue", Arial, sans-serif;
     color: inherit;
@@ -38,27 +39,65 @@
     color: white;
 }
 
+#main-header > .section-text {
+    margin: auto 15% auto;
+}
+
+/* "The Goal" */
+
 #section-whatis {
     background-color: hsl(0, 0%, 95%);
     color: hsl(0, 0%, 5%);
 }
+
+#section-whatis > .section-text {
+    margin: auto 15% auto;
+}
+
+/* "The Tech" */
 
 #section-tech {
     background-color: hsl(0, 0%, 75%);
     color: hsl(0, 0%, 10%);
 }
 
+#section-tech > .section-text {
+    margin: auto;
+    margin-right: -15%;
+}
+
+/* "The Uses" */
+
 #section-uses {
     background-color:  hsl(0, 0%, 100%);
     color: hsl(0, 0%, 0%);
 }
+
+#section-uses > .section-text {
+    margin: auto;
+    margin-left: 25%;
+}
+
+/* "The Concerns" */
 
 #section-concerns {
     background-color:  hsl(0, 0%, 40%);
     color: hsl(0, 0%, 100%);
 }
 
+#section-concerns > .section-text {
+    margin: auto;
+    margin-right: -5%;
+}
+
+/* "The Future" */
+
 #section-future {
     background-color:  hsl(0, 0%, 85%);
     color: hsl(0, 0%, 15%);
+}
+
+#section-future > .section-text {
+    margin: auto;
+    text-align: center;
 }
