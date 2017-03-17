@@ -85,32 +85,10 @@
 
 /* "The Tech" */
 
+/* Coloring, etc. */
 #section-tech {
     background-color: hsl(0, 0%, 75%);
     color: hsl(0, 0%, 10%);
-    position: relative;
-}
-
-#section-tech > .section-align > .section-subheader {
-    color: hsl(0, 0%, 40%);
-}
-
-#section-tech > .section-align {
-    margin: auto 0px auto;
-    max-width: 30%;
-
-    position: absolute;
-    top: 30px;
-    left: 65%;
-
-    float:right;
-}
-
-#section-tech > .section-hidden-text {
-    /*margin-top: 30px;*/
-}
-
-#section-tech > .img-group {
     position: relative;
 }
 
@@ -121,6 +99,55 @@
 
 #opencv-logo {
     background-color: hsl(0, 0%, 70%);
+}
+
+#section-tech > .section-hidden-text {}
+
+#section-tech > .section-align > .section-subheader {
+    color: hsl(0, 0%, 40%);
+}
+
+/* Layout */
+
+#section-tech > .section-align {
+    margin: auto 0px auto;
+    max-width: 30%;
+
+    position: absolute;
+    top: 30px;
+
+    float:right;
+}
+
+#section-tech > .img-group {
+    position: relative;
+}
+
+/*
+ * Place the images in a row of 4 if possible (without overlapping the text).
+ * Otherwise, place them in a 2x2 block and shift them to the center.
+ */
+@media (min-width: 1200px) {
+    #section-tech > .section-align {
+        left: 65%;
+    }
+
+    #section-tech > .img-group {
+        max-width: 70%;
+    }
+}
+
+@media (max-width: 1199px) {
+    #section-tech > .section-align {
+        right: 5%;
+    }
+
+    #section-tech > .img-group {
+        max-width: 535px;
+        left: 5%;
+        overflow: hidden;
+        white-space: nowrap;
+    }
 }
 
 /* "The Uses" */
