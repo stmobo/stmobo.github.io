@@ -51,19 +51,28 @@
     color: white;
 }
 
-#main-header > .section-description {
+#main-header > .section-align {
     margin: auto 15% auto;
 }
 
-/* "The Goal" */
+/* "Reality Plus" */
 
 #section-whatis {
     background-color: hsl(0, 0%, 95%);
     color: hsl(0, 0%, 5%);
 }
 
-#section-whatis > .section-description {
-    margin: auto 15% auto;
+#section-whatis > .section-align {
+    margin: auto 0% auto;
+}
+
+#section-whatis > img {
+    float:right;
+}
+
+#section-whatis > .section-subheader {
+    font-size: 20px;
+    color: hsl(0, 0%, 55%);
 }
 
 /* "The Tech" */
@@ -73,7 +82,7 @@
     color: hsl(0, 0%, 10%);
 }
 
-#section-tech > .section-description {
+#section-tech > .section-align {
     margin: auto;
     margin-right: -15%;
 }
@@ -85,7 +94,7 @@
     color: hsl(0, 0%, 0%);
 }
 
-#section-uses > .section-description {
+#section-uses > .section-align {
     margin: auto;
     margin-left: 25%;
 }
@@ -97,7 +106,7 @@
     color: hsl(0, 0%, 100%);
 }
 
-#section-concerns > .section-description {
+#section-concerns > .section-align {
     margin: auto;
     margin-right: -5%;
 }
@@ -109,7 +118,7 @@
     color: hsl(0, 0%, 15%);
 }
 
-#section-future > .section-description {
+#section-future > .section-align {
     margin: auto;
     text-align: center;
 }
