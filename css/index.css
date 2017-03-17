@@ -24,23 +24,36 @@
     margin: 0 auto;
 }
 
-.info-section > .section-text {
+.section-text {
     max-width: 600px;
     font-family: "Segoe UI", Frutiger, "Frutiger Linotype", "Dejavu Sans", "Helvetica Neue", Arial, sans-serif;
     color: inherit;
     font-weight: normal;
 }
 
-.info-section > .section-hidden-text {
+.section-hidden-text {
     display: none;
-    margin: auto 15% auto;
+    margin: auto 5% auto;
 }
 
-.info-section > .section-expand-hint {
+.section-subheader {
+    width: auto;
+    font-size: 20px;
+}
+
+.section-expand-hint {
     margin: 45px auto auto auto;
     display: block;
     text-align: center;
     opacity: 0.15;
+}
+
+.img-right {
+    float: right;
+}
+
+.img-left {
+    float: left;
 }
 
 /* Per-section settings: */
@@ -66,12 +79,7 @@
     margin: auto 0% auto;
 }
 
-#section-whatis > img {
-    float:right;
-}
-
 #section-whatis > .section-subheader {
-    font-size: 20px;
     color: hsl(0, 0%, 55%);
 }
 
@@ -80,11 +88,39 @@
 #section-tech {
     background-color: hsl(0, 0%, 75%);
     color: hsl(0, 0%, 10%);
+    position: relative;
+}
+
+#section-tech > .section-align > .section-subheader {
+    color: hsl(0, 0%, 40%);
 }
 
 #section-tech > .section-align {
-    margin: auto;
-    margin-right: -15%;
+    margin: auto 0px auto;
+    max-width: 30%;
+
+    position: absolute;
+    top: 30px;
+    left: 65%;
+
+    float:right;
+}
+
+#section-tech > .section-hidden-text {
+    /*margin-top: 30px;*/
+}
+
+#section-tech > .img-group {
+    position: relative;
+}
+
+#section-tech > .img-group > img {
+    width: 175px;
+    height: 175px;
+}
+
+#opencv-logo {
+    background-color: hsl(0, 0%, 70%);
 }
 
 /* "The Uses" */

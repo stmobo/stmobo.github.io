@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg xmlns:svg="http://www.w3.org/2000/svg" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" viewBox="0 0 600 554" height="554pt" width="600pt">
+	<defs>
+		<!-- <font-face font-family="Eurostile Bold">
+			<font-face-src>
+				<font-face-name name="Eurostile Bold"/>
+				<font-face-uri xlink:href="http://xfont.ru/fonts/3/5/1/3517.ttf">
+					<font-face-format string="truetype"/>
+				</font-face-uri>
+			</font-face-src>
+		</font-face>
+		<style type="text/css">
+			<![CDATA[
+				@font-face {
+					font-family: 'Eurostile Bold',
+					src: src: local('Eurostile Bold'),
+					url('http://xfont.ru/fonts/3/5/1/3517.ttf');
+				}
+			]]>
+		</style> -->
+		<path d="M -69.6503905 120.638015113  A 139.300781 139.300781 120 1 1 +69.6503905 120.638015113  L 27.7089845 47.9933689801  A 55.417969 55.417969 120 1 0 -27.7089845 47.9933689801  L -69.6503905 120.638015113  Z" id="cv_element"/>
+	</defs>
+	<!-- paths -->
+	<use xlink:href="#cv_element" x="298" y="140" fill="#ff0101" id="red"/>
+	<use xlink:href="#cv_element" x="457" y="415" fill="#0101ff" id="blue" transform="rotate(180,457,415)"/>
+	<use xlink:href="#cv_element" x="142" y="415" fill="#01ff01" id="green" transform="rotate(240,142,415)"/>
+</svg>
