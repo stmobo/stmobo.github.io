@@ -36,10 +36,11 @@
     margin: auto 15% auto;
 }
 
-.expand-button {
-    max-width: 100px;
-    max-height: 50px;
-    font-family: "Segoe UI", Frutiger, "Frutiger Linotype", "Dejavu Sans", "Helvetica Neue", Arial, sans-serif;
+.info-section > .section-expand-hint {
+    margin: 45px auto auto auto;
+    display: block;
+    text-align: center;
+    opacity: 0.15;
 }
 
 /* Per-section settings: */

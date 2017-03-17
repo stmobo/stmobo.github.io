@@ -1,20 +1,19 @@
-function displayExpandButton() {}
-function hideExpandButton() {}
-
 function expandInfo(elem) {
-    /* Search for and unhide section-hidden-text: */
+    $(elem).children('.section-expand-hint').slideUp();
     $(elem).children('.section-hidden-text').slideDown();
 }
 
 function retractInfo(elem) {
+    $(elem).children('.section-expand-hint').slideDown();
     $(elem).children('.section-hidden-text').slideUp();
 }
 
 $(document).ready( function() {
     /* Create "Expand..." hint: */
-    expandHint = $("<em>", {
-        
-    })
+    expandHint = $("<em>Expand</em>").addClass('section-text section-expand-hint');
+
+    $(".expandable-section").append(expandHint);
+
     $(".info-section").click(function(ev) {
         if($(this).data("toggle")) {
             $(this).data("toggle", false);
