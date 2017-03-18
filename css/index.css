@@ -91,7 +91,8 @@
 }
 
 #section-whatis > .section-align {
-    margin: auto 0% auto;
+    margin-right: 550px;
+    max-width: 35%;
 }
 
 #section-whatis  > .section-align > .section-subheader {
