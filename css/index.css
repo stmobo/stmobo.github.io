@@ -237,3 +237,17 @@
     width: 50%;
     position: static;
 }
+
+/* Footer */
+
+#section-footer {
+    color: hsl(0, 0%, 50%);
+}
+
+#section-footer > .section-text {
+    font-size: 80%;
+}
+
+#section-footer > a.section-text {
+    text-decoration: underline;
+}
