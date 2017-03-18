@@ -206,12 +206,16 @@ img.canGroupPic {
 }
 
 .canText {
-    margin-left: 1%;
+    margin-left: 5%;
 }
 
 img.canPic{
-    max-height: 40%
-    max-width: 40%
-    margin-left: 61%;
+    max-height: 25%;
+    max-width: 40%;
+
+    margin-left: 55%;
+
     overflow: hidden;
+    clear:none;
+    display: block;
 }
