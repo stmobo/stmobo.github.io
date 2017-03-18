@@ -145,25 +145,26 @@ figcaption.officer {
 	clear: both;
 }
 
-	
+
 
 img.regionalgrouppic{
 	display: inline-block;
 }
 img.regionalsawards{
-	
+
 	float: right;
-	
+
 }
-	
+
 p.regionals{
 	color: black;
 	padding: 15px;
-	
+
 }
 
 img.tangled {
 	float: left;
+    width: 100%;
 	margin: 10px 10px 10px 0px;
 }
 
