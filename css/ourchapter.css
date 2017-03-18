@@ -1,0 +1,186 @@
+.mainHeading {
+    background-color: #800000;
+    color: white;
+	text-align: center;
+	padding: 30px;
+}
+
+.motto {
+	float: right;
+}
+
+.colorsOfTSA{
+	background-color: #FF69B4;
+    color: white;
+	text-align: left;
+	padding: 20px;
+}
+
+img.TSAlogo {
+	display: block;
+	margin: 0 auto;
+}
+
+.navbar {
+	margin: 0px;
+}
+
+.wrapper {
+    text-align: center;
+}
+
+	color: black;
+}
+
+.btn:hover{
+	color: black;
+	outline: none;
+}
+.buttonscar {
+	color: white;
+	background-color: #FF2400;
+	outline: none;
+}
+
+.buttonscar:focus{
+	color: white !important;
+	background-color: #FF2400;
+	outline: none;
+}
+
+.buttonscar:hover{
+	color: white;
+	background-color: #FF2400;
+	outline: none;
+}
+
+.buttonscar:active{
+	color: white;
+	background-color: #FF2400 !important;
+	outline: none;
+}
+
+.buttonnavy {
+	color: white;
+	background-color: #000080;
+	outline: none;
+}
+
+.buttonnavy:focus{
+	color: white !important;
+	background-color: #000080;
+	outline: none;
+}
+
+.buttonnavy:hover{
+	color: white;
+	background-color: #000080;
+	outline: none;
+}
+
+.buttonnavy:active{
+	color: white;
+	background-color: #000080 !important;
+	outline: none;
+}
+.buttonwhite {
+	color: black;
+	background-color: #FFF;
+	outline: none;
+}
+
+.buttonwhite:focus{
+	color: black !important;
+	background-color: #FFF;
+	outline: none;
+}
+
+.buttonwhite:hover{
+	color: black;
+	background-color: #FFF;
+	outline: none;
+}
+
+.buttonwhite:active{
+	color: black;
+	background-color: #FFF !important;
+	outline: none;
+}
+
+.officersheader {
+	text-align: center;
+	padding: 15px;
+	background-color: #32CD32;
+	color: white;
+}
+
+img.officer {
+	float: middle;
+}
+figcaption.officer {
+	font-weight: bold;
+}
+
+.activitiesheader {
+	padding: 25px;
+	text-align:right;
+	background-color: #FD5F00;
+	color: white;
+}
+
+.CompHeader {
+	display: block;
+	padding: 5px;
+	color: white;
+}
+
+.CompHeader.TSA{
+	background-color:#00BFFF;
+	text-align:left;
+}
+
+.CompHeader.paperPower{
+	background-color:#BF5FFF;
+	text-align:center;
+	clear: both;
+}
+
+	
+
+img.regionalgrouppic{
+	display: inline-block;
+}
+img.regionalsawards{
+	
+	float: right;
+	
+}
+	
+p.regionals{
+	color: black;
+	padding: 15px;
+	
+}
+
+img.tangled {
+	float: left;
+	margin: 10px 10px 10px 0px;
+}
+
+.CompHeader.canstruction{
+	margin: 15px 0px 15px 0px;
+	padding: 0px 10px 0px 0px;
+	background-color:#FF0000;
+	text-align:right;
+	clear: both;
+}
+
+img.canPic{
+	float: right;
+	margin : 0px 0px 30px 10px;
+}
+
+img.canGroupPic{
+	float: left;
+	margin: 0px 10px 0px 0px;
+}
