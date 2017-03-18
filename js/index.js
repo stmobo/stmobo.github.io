@@ -14,6 +14,8 @@ $(document).ready( function() {
 
     $(".expandable-section").append(expandHint);
 
+    $(".expandable-section > .section-hidden-text").css("display", "none");
+
     $(".expandable-section").mouseenter(function(ev) {
         $(this).children('.section-expand-hint').css('text-decoration', 'underline');
     });

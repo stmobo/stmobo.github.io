@@ -112,6 +112,13 @@
 
 #section-tech > .section-hidden-text {
     margin-left: 0px;
+    margin-top: 3%;
+    display: flex;
+}
+
+#section-tech > .section-hidden-text > .section-text {
+    margin-left: 3%;
+    margin-right: 3%;
 }
 
 #section-tech > .section-align > .section-subheader {
