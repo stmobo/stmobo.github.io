@@ -146,15 +146,29 @@ figcaption.officer {
 }
 
 
+.regionals-img-group {
+    max-width: 90%;
 
+    position: relative;
+    top: -5%;
+    left: 10%;
+}
+
+.regionals-img-group > img {
+    width: auto;
+    overflow: hidden;
+    margin: auto 0px auto;
+}
+
+/*
 img.regionalgrouppic{
 	display: inline-block;
 }
 img.regionalsawards{
 
 	float: right;
-
 }
+*/
 
 p.regionals{
 	color: black;
@@ -163,9 +177,13 @@ p.regionals{
 }
 
 img.tangled {
-	float: left;
-    width: 100%;
-	margin: 10px 10px 10px 0px;
+    max-width: 75%;
+	margin: 0% 10%;
+}
+
+.paperText {
+    max-width: 75%;
+    margin: 0% 10%;
 }
 
 .CompHeader.canstruction{
@@ -176,12 +194,24 @@ img.tangled {
 	clear: both;
 }
 
-img.canPic{
-	float: right;
-	margin : 0px 0px 30px 10px;
+img.canGroupPic {
+	float: left;
+    max-width: 60%;
+	margin: 0px;
+    margin-left: 10px;
 }
 
-img.canGroupPic{
-	float: left;
-	margin: 0px 10px 0px 0px;
+.can-content {
+    overflow: hidden;
+}
+
+.canText {
+    margin-left: 1%;
+}
+
+img.canPic{
+    max-height: 40%
+    max-width: 40%
+    margin-left: 61%;
+    overflow: hidden;
 }
