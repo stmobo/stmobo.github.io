@@ -1,0 +1,22 @@
+.main-body {
+    background-color: #800000;
+    margin-top: 0px;
+
+    position: relative;
+    top: 0%;
+}
+
+.main-header {
+    color:white;
+    font-family:verdana;
+    font-size:300%;
+
+    margin-top: 0px;
+}
+
+.img-slide {
+    width:800px;
+    height:400px;
+    padding:10px;
+    border:10px double white;
+}
